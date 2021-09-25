@@ -1,0 +1,62 @@
+$date
+	Fri Apr 30 00:53:51 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module decimaltobcd_tb $end
+$var wire 4 ! y [3:0] $end
+$var wire 1 " loadn $end
+$var reg 10 # d [9:0] $end
+$var reg 1 $ enable $end
+$scope module c0 $end
+$var wire 1 $ enable $end
+$var wire 10 % key [9:0] $end
+$var reg 1 " loadn $end
+$var reg 4 & y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+bx %
+0$
+bx #
+0"
+bx !
+$end
+#100
+1"
+b100 !
+b100 &
+b100 #
+b100 %
+#600
+0"
+b0x #
+b0x %
+#700
+1"
+b11 !
+b11 &
+b11 #
+b11 %
+#1200
+0"
+b0x #
+b0x %
+#1300
+1"
+b110 !
+b110 &
+b110 #
+b110 %
+#1800
+0"
+b0x #
+b0x %
+#11800
